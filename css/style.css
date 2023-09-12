@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+background-color: black;
+font-family: 'Roboto Slab', serif;
+}
+header{
+    height:575px;
+    background-image: url(../image/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 285px;
+}
+.iron-man-sec{
+margin-top: 240px;
+margin-bottom: 100px;
+}
+.iron-man-card{
+    background-color:rgb(0, 0, 0) ;
+    box-shadow: inset;
+
+}
+main .card{
+ 
+    width: 85%;
+}
+main .card .cap{
+    height: 368px;
+}
+.smoke{
+    text-align: center;
+    transform: (-50%,-50%);
+}
+.smoke span{
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+    font-size: 50px;
+    animation: animate 3s linear infinite;
+}
+.smoke span:nth-child(1){
+    animation-delay: 0s;
+}
+.smoke span:nth-child(2){
+    animation-delay: 0.15s;
+}
+.smoke span:nth-child(3){
+    animation-delay: 0.3s;
+}
+.smoke span:nth-child(4){
+    animation-delay: 0.45s;
+}
+.smoke span:nth-child(5){
+    animation-delay: 0.6s;
+}
+.smoke span:nth-child(6){
+    animation-delay: 0.75s;
+}
+.smoke span:nth-child(7){
+    animation-delay: 0.9s;
+}
+.smoke span:nth-child(8){
+    animation-delay: 1.05s;
+}
+@keyframes animate{
+    0%
+    {
+        filter: blur(0);
+    }
+    40%
+    {
+        filter: blur(20px);
+    }
+    80%
+    {
+        filter: blur(20px);
+    }
+    100%
+    {
+        filter: blur(20px);
+    }
+} 
+.blackPan {
+
+    margin-top: 30px;
+    border-radius: 180px 180px 0 0; 
+    background-position:top;
+    height:550px;
+    background-image: url(../image/secc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blackPan img{
+    width: 100%;
+}
+
+.icon{
+    margin-top: 205px;
+}
+.foooter{
+    margin-top:50px ;
+    border-radius: 180px 180px 0 0;
+}
